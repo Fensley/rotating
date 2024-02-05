@@ -1,23 +1,14 @@
 
-// const open = document.getElementById('open');
-// const close = document.getElementById('close');
-// const container = document.querySelector('.container');
 
-// open.addEventListener('click', fensley());
+// this is first option of doing it .
 
-// close.addEventListener('click',testing());
+const open = document.getElementById('open');
+const close = document.getElementById('close');
+const container = document.querySelector('.container');
 
+open.addEventListener('click', ()=> container.classList.add('show-nav'));
 
-// function fensley() {
-
-//   container.classList.add('show-nav');
-
-// }
-
-// function testing(){
-//   container.classList.remove('show-nav');
-
-// }
+close.addEventListener('click', ()=> container.classList.remove('show-nav'));
 
 
 // this the second way i try it 
